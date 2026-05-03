@@ -1,16 +1,27 @@
-# React + Vite
+# HabitTracker 🎯
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App de seguimiento de hábitos diarios construida con React + Vite.
 
-Currently, two official plugins are available:
+## ¿Qué hace?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Crea hábitos personalizados con emoji y color propio
+- Marca hábitos como completados cada día
+- Muestra racha de días consecutivos 🔥
+- Estadísticas con barra de progreso en vistas diaria, semanal y mensual
+- Los datos persisten en localStorage — sobreviven al cerrar el navegador
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 
+- Vite
+- CSS (misma identidad visual del portafolio)
+- localStorage (sin backend)
 
-## Expanding the ESLint configuration
+## Correr localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+npm run dev
+
+## Demo
+
+[Ver app en vivo](https://habit-tracker-app.vercel.app)
